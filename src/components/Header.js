@@ -1,8 +1,12 @@
 import React from "react";
+import N64Image from "./../img/N64.webp";
 
 function Header(){
   return (
-    <h1>Help Queue</h1>
+    <React.Fragment>
+      <h1>Help Queue</h1>
+      <img src={N64Image} alt="An image of tickets" />
+    </React.Fragment>
   );
 }
 
